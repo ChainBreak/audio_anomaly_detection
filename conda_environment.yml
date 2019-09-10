@@ -1,0 +1,27 @@
+name: aad
+
+channels:
+  - pytorch
+  - conda-forge
+
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - pytest
+  - jupyter
+  - pyyaml
+  - pytorch>=1.2
+  - torchvision
+  - cudatoolkit=10.0
+  - tensorflow
+  - pillow
+  - scikit-learn
+  - opencv
+  - pyaudio
+  - pip
+  - pip:
+    - tb-nightly  # https://www.endtoend.ai/pytorch-tensorboard
+    - future      # until Tensorboard v1.14 released
